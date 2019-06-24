@@ -1,0 +1,200 @@
+
+html {
+    background-color: #f2f2f2;
+}	
+
+#wrapper {
+    width:1000px;
+    padding:15px;
+    margin:0 auto;
+    background-color:#FFFFFF;
+    box-shadow:0 2px 5px #555555;
+}
+
+#header {
+    margin-bottom:15px;
+    padding-left:10px;
+    overflow:hidden;
+}
+
+#logo {
+    float:left;
+}
+
+#slogan {
+    float:left;
+    color: #310303;
+    padding-left:10px;
+    font-style:italic;
+    font-size: 48px;
+}
+
+#nav {
+    height:40px;
+    background:#310303;
+    margin-bottom:15px;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav ul li {
+    float:left;
+    position: relative;
+}
+
+#nav ul li a {
+    padding:10px;
+    height:20px;
+    line-height: 20px;
+    display: block;
+    transition: 0.5s all ease;
+}
+
+#nav ul li a:link,
+#nav ul li a:visited {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    color:#FFFFFF;
+    background:#C51417;
+}
+
+#nav ul li a:active {
+    color:#333333;
+    background:#CCCCCC;
+}
+#nav ul li ul {
+    background:rgba(55,55,55,0.6);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width:120px;
+    display: none; 
+}
+
+#nav ul li ul li {
+    float: none;
+}
+
+#nav ul li:hover > ul {
+    display: block;
+}
+
+#nav ul li ul li ul {
+    left: 100%;
+    top: 0;
+}
+#central {
+    overflow: hidden;
+}
+
+.imgLeft {
+    float: left;
+    margin-right: 12px;
+}
+
+.imgLeft p {
+    margin: 0;
+    font-size: 12px;
+}
+
+#main {
+    margin: 0px;
+    text-align: justify;
+}
+
+#footer {
+    background:#310303;
+    clear:both;
+    text-align: center;
+    color: #FFF;
+    font-size: 12px;
+    padding: 8px;
+}
+
+#footer p{
+    margin: 0;
+}
+
+#main {
+    float: left;
+}
+
+#main p {
+    margin: 0;
+}
+
+#sidebar {
+    float: right;
+}
+
+.reg{
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+
+.reg table {
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #f2f2f2; 
+    padding: 15px;
+}     
+
+.reg th, td {
+    padding: 5px;
+}
+
+.reg input[type="tel"],input[type="email"],input[type="number"],input[type="text"],input[type="password"],input[type="date"]{ 
+    width: 300px; 
+    height: 30px;  
+}
+
+.reg input[type="submit"]{ 
+    width: 100px; 
+    height: 30px;  
+    border-bottom: 2px solid black;
+}
+
+.reg input[type="reset"]{
+    width:100px; 
+    height:30px; 
+    border-bottom: 2px solid black;
+}
+
+.reg input[type="button"]{
+    width:100px; 
+    height:30px; 
+    border-bottom: 2px solid black;
+}
+
+.doc {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.doc td, .doc th {
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+.doc tr:nth-child(even){background-color: #f2f2f2;}
+
+.doc tr:hover {background-color: #ddd;}
+
+.doc th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    background-color: #e0e0d1;
+}
+
+#central {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
